@@ -15,6 +15,7 @@ import com.example.surf_summer1.ui.CocktailsAdapter
 import com.example.surf_summer1.viewModels.CocktailListViewModel
 import com.example.surf_summer1.viewModels.CocktailViewModel
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class MyCocktailsFragment : Fragment() {

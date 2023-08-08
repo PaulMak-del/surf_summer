@@ -1,4 +1,4 @@
-package com.example.surf_summer1.model.db.injection
+package com.example.surf_summer1.di
 
 import android.content.Context
 import androidx.room.Room

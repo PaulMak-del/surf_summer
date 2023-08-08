@@ -1,4 +1,4 @@
-package com.example.surf_summer1.model.repository.injection
+package com.example.surf_summer1.di
 
 import com.example.surf_summer1.model.repository.CocktailRepository
 import com.example.surf_summer1.model.repository.ICocktailRepository
