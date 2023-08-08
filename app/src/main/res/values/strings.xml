@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">surf_summer(1)</string>
+    <string name="app_name">surf_summer</string>
+    <string name="input_text">Cocktail name</string>
+    <string name="label_text">Title</string>
+    <string name="app_title">My cocktails</string>
+    <string name="create_cock">Add your first cocktail here</string>
+    <string name="pink_lemona">Pink Lemonade</string>
 </resources>

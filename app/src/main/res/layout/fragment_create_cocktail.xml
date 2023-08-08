@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.MyCocktailsFragment">
+
+    <RelativeLayout
+        android:id="@+id/light"
+        android:layout_width="361dp"
+        android:layout_height="996dp"
+        android:clipToOutline="true"
+        android:background="#FFFFFF"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="216dp"
+            android:layout_height="204dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/rectangle_1"
+            />
+
+        <View
+            android:id="@+id/frame"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:clipToOutline="true"
+            android:background="@drawable/frame"
+            />
+
+        <RelativeLayout
+            android:id="@+id/frame_38"
+            android:layout_width="329dp"
+            android:layout_height="662dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="308dp">
+
+            <RelativeLayout
+                android:id="@+id/frame_47"
+                android:layout_width="329dp"
+                android:layout_height="76dp"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/text_field"
+                    android:layout_width="329dp"
+                    android:layout_height="56dp"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/state_layer"
+                        android:layout_width="329dp"
+                        android:layout_height="56dp"
+                        >
+
+                        <RelativeLayout
+                            android:id="@+id/content"
+                            android:layout_width="313dp"
+                            android:layout_height="40dp"
+                            >
+
+                            <RelativeLayout
+                                android:id="@+id/input__text"
+                                android:layout_width="96dp"
+                                android:layout_height="24dp"
+                                >
+
+                                <TextView
+                                    android:id="@+id/input_text"
+                                    android:layout_width="96dp"
+                                    android:layout_height="24dp"
+                                    android:text="@string/input_text"
+                                    android:textAppearance="@style/input_text"
+                                    android:lineSpacingExtra="3sp"
+                                    android:gravity="center_vertical"
+                                    />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/label__text"
+                                android:layout_width="30dp"
+                                android:layout_height="16dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="5dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginTop="-16dp"
+                                android:background="#FFFFFF"
+                                >
+
+                                <TextView
+                                    android:id="@+id/label_text"
+                                    android:layout_width="22dp"
+                                    android:layout_height="16dp"
+                                    android:text="@string/label_text"
+                                    android:textAppearance="@style/label_text"
+                                    android:lineSpacingExtra="0sp"
+                                    android:translationY="-0.13sp"
+                                    android:gravity="top"
+                                    />
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="329dp"
+                        android:layout_height="56dp"
+                        >
+
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+

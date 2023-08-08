@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/myCocktailsFragment">
+
+    <fragment
+        android:id="@+id/cocktailDetailFragment"
+        android:name="com.example.surf_summer1.ui.fragments.CocktailDetailFragment"
+        android:label="CocktailDetailFragment" >
+        <action
+            android:id="@+id/action_cocktailDetailFragment_to_myCocktailsFragment"
+            app:destination="@id/myCocktailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createCocktailFragment"
+        android:name="com.example.surf_summer1.ui.fragments.CreateCocktailFragment"
+        android:label="CreateCocktailFragment" >
+        <action
+            android:id="@+id/action_createCocktailFragment_to_myCocktailsFragment"
+            app:destination="@id/myCocktailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myCocktailsFragment"
+        android:name="com.example.surf_summer1.ui.fragments.MyCocktailsFragment"
+        android:label="fragment_cocktail_detail"
+        tools:layout="@layout/fragment_cocktail_detail" >
+        <action
+            android:id="@+id/action_myCocktailsFragment_to_createCocktailFragment"
+            app:destination="@id/createCocktailFragment" />
+        <action
+            android:id="@+id/action_myCocktailsFragment_to_cocktailDetailFragment"
+            app:destination="@id/cocktailDetailFragment" />
+    </fragment>
+</navigation>
